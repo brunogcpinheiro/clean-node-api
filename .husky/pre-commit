@@ -2,4 +2,4 @@
 . "$(dirname "$0")/_/husky.sh"
 
 npx eslint src/** --fix
-# npm run test:staged
+npm run test:staged
