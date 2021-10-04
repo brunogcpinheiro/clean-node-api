@@ -10,7 +10,7 @@ interface SutTypes {
 
 const makeSut = (): SutTypes => {
   class EmailValidatorStub implements EmailValidator {
-    isValid = (email: string): boolean => false
+    isValid = (email: string): boolean => true
   }
 
   const emailValidatorStub = new EmailValidatorStub()
